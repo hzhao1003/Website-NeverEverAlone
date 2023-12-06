@@ -1,8 +1,8 @@
 import App from "./App";
 import { createBrowserRouter } from "react-router-dom";
-import Whatweserve from "./components/Whatweserve";
-import Howwedo from "./components/Howwedo";
-import Howwehelp from "./components/Howwehelp";
+import WhatWeServe from "./components/Whatweserve";
+import HowWeDo from "./components/Howwedo";
+import HowWeHelp from "./components/Howwehelp";
 import Team from "./components/Team";
 const router = createBrowserRouter ([
     {
@@ -11,15 +11,15 @@ const router = createBrowserRouter ([
         children: [
             {
                 path: "/what-we-serve",
-                element: <Whatweserve />
+                element: <WhatWeServe />
             },
             {
                 path: "/how-we-do",
-                element: <Howwedo />
+                element: <HowWeDo />
             },
             {
                 path: "/how-we-help",
-                element: <Howwehelp />
+                element: <HowWeHelp />
             },
             {
                 path: "/team",
